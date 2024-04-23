@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <table cellspacing="10">
+            <tr>
+                <th><label for="first_name" >FIRST NAME: </label></th>
+                <td><input type="text" id="first_name" placeholder="Enter the first name"></td>
+            </tr>
+            <tr>
+                <th><label for="last_name">LAST NAME: </label></th>
+                <td><input type="text" id="last_name" placeholder="Enter the last name"></td>
+            </tr>
+            <tr>
+                <th><label for="dob">DOB: </label></th>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr>
+                <th><label for="email">EMAIL ID: </label></th>
+                <td><input type="email" id="email" placeholder="Enter email"></td>
+            </tr>
+            <tr>
+                <th><label for="phone">MOBILE NUMBER: </label></th>
+                <td><input type="number" id="phone" placeholder="Enter the phone"></td>
+            </tr>
+            <tr>
+                <th><label for="g">GENDER: </label></th>
+                <td><input type="RADIO" id="g">MALE
+                <input type="radio" id="g">FEMALE</td>
+            </tr>
+            <tr>
+                <th><label for="address">ADDRESS: </label></th>
+                <td><textarea rows="5" cols="24" id="address"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="city">CITY: </label></th>
+                <td><input type="text" id="city" placeholder="Enter the city"></td>
+            </tr>
+            <tr>
+                <th><label for="pin">PINCODE: </label></th>
+                <td><input type="number" id="pin" placeholder="Enter the pincode"></td>
+            </tr>
+            <tr>
+                <th><label for="state">STATE: </label></th>
+                <td><input type="text" id="state" placeholder="Enter the state"></td>
+            </tr>
+            <tr>
+                <th><label for="country">COUNTRY: </label></th>
+                <td><select>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Russia</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th><label for="hobbies">HOBBIES: </label></th>
+                <td>Drawing<input type="checkbox" id="hobbies">
+                    Singing<input type="checkbox" id="hobbies">
+                    Dancing<input type="checkbox" id="hobbies">
+                    Sketching<input type="checkbox" id="hobbies"><br>
+                    Others<input for="o" type="checkbox" id="hobbies">
+                    <input type="text" id="o">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="qual">QUALIFICATION: </label></th>
+                <td>
+                    <table cellspacing="5">
+                        <tr>
+                            <th>SI.No.Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                        <tr>
+                            <th align="left">1 Class X</th>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th align="left">2 Class XII</th>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th align="left">3 Graduation</th>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th align="left">3 Masters</th>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td align="center">(10 Char Max)</td>
+                            <td align="center">(Upto 2 Decimal)</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="course">COURSES APPLIED FOR:</label></th>
+                <td>
+                    Php<input type="radio" id="course">
+                    Python<input type="radio" id="course">
+                    Java<input type="radio" id="course">
+                    Digital Marketing<input type="radio" id="course">
+                </td>
+            </tr>
+        </table>
+        <div align="center"><input type="submit">
+            <input type="reset"></div>
+    </form>
+</body>
+</html>
